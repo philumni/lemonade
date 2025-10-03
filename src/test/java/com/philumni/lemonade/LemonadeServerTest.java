@@ -28,7 +28,7 @@ class LemonadeServerTest {
 				
 				assertTrue(ls.getMoney()<ls.getEconomy().getCupPrice());
 				assertTrue(ls.getMoney()<ls.getEconomy().getIcePrice());
-				assertTrue(ls.getMoney()<ls.getEconomy().getLemonPrice());
+				assertTrue(ls.getMoney()<ls.getEconomy().getWaterPrice());
 				assertTrue(ls.getMoney()<ls.getEconomy().getSugarPrice());
 				assertTrue(ls.getMoney()<ls.getEconomy().getLemonPrice());
 				
@@ -61,3 +61,4 @@ class LemonadeServerTest {
 		System.out.println(s);
 	}
 }
+
