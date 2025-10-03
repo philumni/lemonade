@@ -1,4 +1,4 @@
-package com.philumni.lemonade;
+package com.philumni.lemonade.client;
 
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
