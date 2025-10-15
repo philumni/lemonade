@@ -125,13 +125,4 @@ public class LemonadeServer {
 	public float getMoney() {
 		return l.getMoney();
 	}
-
-
-	
-	
-	
-	
-	
-	
-
 }
